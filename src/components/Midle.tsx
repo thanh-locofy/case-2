@@ -1,0 +1,65 @@
+import { FunctionComponent } from "react";
+import styles from "./Midle.module.css";
+
+const Midle: FunctionComponent = () => {
+  return (
+    <div className={styles.midle}>
+      <div className={styles.dataComparer}>
+        <div className={styles.logo}>
+          <div className={styles.dataRetriever}>
+            <img
+              className={styles.plant1Icon}
+              loading="lazy"
+              alt=""
+              src="/plant-1.svg"
+            />
+          </div>
+          <h1 className={styles.ecobazar}>Ecobazar</h1>
+        </div>
+      </div>
+      <div className={styles.search}>
+        <div className={styles.searech}>
+          <img className={styles.searchIcon} alt="" src="/search.svg" />
+          <input className={styles.search1} placeholder="Search" type="text" />
+        </div>
+        <button className={styles.button}>
+          <div className={styles.search2}>Search</div>
+        </button>
+      </div>
+      <div className={styles.dataAnalyzer}>
+        <div className={styles.icons}>
+          <div className={styles.dataIntegrator}>
+            <img
+              className={styles.heartIcon}
+              loading="lazy"
+              alt=""
+              src="/heart.svg"
+            />
+          </div>
+          <div className={styles.dataQueuer}>
+            <div className={styles.devider} />
+          </div>
+          <div className={styles.shoppingCard}>
+            <div className={styles.cart}>
+              <img
+                className={styles.bagIcon}
+                loading="lazy"
+                alt=""
+                src="/bag.svg"
+              />
+              <div className={styles.no}>
+                <div className={styles.dataMover}>2</div>
+              </div>
+            </div>
+            <div className={styles.info}>
+              <div className={styles.shoppingCart}>Shopping cart:</div>
+              <div className={styles.dataPumper}>$57.00</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Midle;
