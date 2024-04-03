@@ -5,7 +5,7 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.dataRetriever {
+.plant1Wrapper {
   height: 35px;
   display: flex;
   flex-direction: column;
@@ -24,7 +24,7 @@
   font-family: inherit;
   white-space: nowrap;
 }
-.dataComparer,
+.dataAnalyzer,
 .logo {
   display: flex;
   align-items: flex-start;
@@ -34,7 +34,7 @@
   flex-direction: row;
   gap: var(--gap-5xs);
 }
-.dataComparer {
+.dataAnalyzer {
   flex-direction: column;
   padding: var(--padding-9xs-5) var(--padding-5xs) 0 0;
 }
@@ -117,7 +117,7 @@
   height: 32px;
   position: relative;
 }
-.dataIntegrator {
+.dataQueuer {
   height: 33px;
   display: flex;
   flex-direction: column;
@@ -133,7 +133,7 @@
   border-right: 1px solid var(--gray-scale-gray-200);
   box-sizing: border-box;
 }
-.dataQueuer {
+.deviderWrapper {
   height: 29px;
   display: flex;
   flex-direction: column;
@@ -217,8 +217,8 @@
   flex-direction: row;
   gap: var(--gap-xs);
 }
-.dataAnalyzer,
 .icons,
+.iconsWrapper,
 .midle,
 .shoppingCard {
   display: flex;
@@ -229,7 +229,7 @@
   flex-direction: row;
   gap: var(--gap-base-5);
 }
-.dataAnalyzer,
+.iconsWrapper,
 .midle {
   flex-direction: column;
   padding: var(--padding-7xs-5) 0 0;

@@ -4,9 +4,9 @@ import styles from "./Midle.module.css";
 const Midle: FunctionComponent = () => {
   return (
     <div className={styles.midle}>
-      <div className={styles.dataComparer}>
+      <div className={styles.dataAnalyzer}>
         <div className={styles.logo}>
-          <div className={styles.dataRetriever}>
+          <div className={styles.plant1Wrapper}>
             <img
               className={styles.plant1Icon}
               loading="lazy"
@@ -26,9 +26,9 @@ const Midle: FunctionComponent = () => {
           <div className={styles.search2}>Search</div>
         </button>
       </div>
-      <div className={styles.dataAnalyzer}>
+      <div className={styles.iconsWrapper}>
         <div className={styles.icons}>
-          <div className={styles.dataIntegrator}>
+          <div className={styles.dataQueuer}>
             <img
               className={styles.heartIcon}
               loading="lazy"
@@ -36,7 +36,7 @@ const Midle: FunctionComponent = () => {
               src="/heart.svg"
             />
           </div>
-          <div className={styles.dataQueuer}>
+          <div className={styles.deviderWrapper}>
             <div className={styles.devider} />
           </div>
           <div className={styles.shoppingCard}>

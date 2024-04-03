@@ -4,8 +4,8 @@ import styles from "./Footer.module.css";
 const Footer: FunctionComponent = () => {
   return (
     <footer className={styles.footer}>
-      <div className={styles.flipFunction}>
-        <div className={styles.skewControl}>
+      <div className={styles.opacityMask}>
+        <div className={styles.shapeRepeater}>
           <div className={styles.company}>
             <div className={styles.logo}>
               <img className={styles.plant1Icon} alt="" src="/plant-1.svg" />
@@ -26,17 +26,17 @@ const Footer: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <div className={styles.maskGenerator}>
-          <div className={styles.opacityMask}>
+        <div className={styles.shapeReviewer}>
+          <div className={styles.opacityMask1}>
             <div className={styles.myAccount}>My Account</div>
-            <div className={styles.fillFunction}>
+            <div className={styles.shapeRefiner}>
               <div className={styles.myAccount1}>My Account</div>
               <div className={styles.orderHistory}>Order History</div>
               <div className={styles.shopingCart}>Shoping Cart</div>
               <div className={styles.wishlist}>Wishlist</div>
             </div>
           </div>
-          <div className={styles.opacityMask1}>
+          <div className={styles.opacityMask2}>
             <div className={styles.helps}>Helps</div>
             <div className={styles.contactParent}>
               <div className={styles.contact}>Contact</div>
@@ -45,7 +45,7 @@ const Footer: FunctionComponent = () => {
               <div className={styles.privacyPolicy}>Privacy Policy</div>
             </div>
           </div>
-          <div className={styles.opacityMask2}>
+          <div className={styles.imageAnalyzer}>
             <div className={styles.proxy}>Proxy</div>
             <div className={styles.aboutParent}>
               <div className={styles.about}>About</div>
@@ -55,9 +55,9 @@ const Footer: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <div className={styles.imageAnalyzer}>
+        <div className={styles.categoriesParent}>
           <div className={styles.categories}>Categories</div>
-          <div className={styles.colorCoder}>
+          <div className={styles.colorPalette}>
             <div className={styles.fruitVegetables}>{`Fruit & Vegetables`}</div>
             <div className={styles.meatFish}>{`Meat & Fish`}</div>
             <div className={styles.breadBakery}>{`Bread & Bakery`}</div>
@@ -66,12 +66,12 @@ const Footer: FunctionComponent = () => {
         </div>
       </div>
       <div className={styles.copyright}>
-        <div className={styles.fontFixer}>
+        <div className={styles.positionHandler}>
           <div className={styles.ecobazarEcommerce}>
             Ecobazar eCommerce © 2021. All Rights Reserved
           </div>
         </div>
-        <div className={styles.methodapplepayParent}>
+        <div className={styles.borderCreator}>
           <img
             className={styles.methodapplepayIcon}
             loading="lazy"
@@ -98,8 +98,8 @@ const Footer: FunctionComponent = () => {
           />
           <div className={styles.cart}>
             <div className={styles.base} />
-            <div className={styles.panelProducer}>
-              <div className={styles.lock1Parent}>
+            <div className={styles.linkManagerWrapper}>
+              <div className={styles.linkManager}>
                 <img
                   className={styles.lock1Icon}
                   loading="lazy"
